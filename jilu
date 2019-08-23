@@ -1,0 +1,130 @@
+# resnet50 lr=0.01, momentum=0.9 num_epochs=75
+scheduler = torch.optim.lr_scheduler.StepLR(optimizer_ft, 30, gamma=0.9, last_epoch=-1)
+Epoch 70/74
+----------
+[0.008100000000000001]
+train Loss: 0.1092 Acc: 0.7818
+test Loss: 0.2122 Acc: 0.6633
+
+Epoch 71/74
+----------
+[0.008100000000000001]
+train Loss: 0.1067 Acc: 0.7776
+test Loss: 0.2907 Acc: 0.5885
+
+Epoch 72/74
+----------
+[0.008100000000000001]
+train Loss: 0.1156 Acc: 0.7604
+test Loss: 0.2068 Acc: 0.6612
+
+Epoch 73/74
+----------
+[0.008100000000000001]
+train Loss: 0.1088 Acc: 0.7791
+test Loss: 0.2092 Acc: 0.6521
+
+Epoch 74/74
+----------
+[0.008100000000000001]
+train Loss: 0.1024 Acc: 0.7845
+test Loss: 0.2152 Acc: 0.6505
+
+Training complete in 296m 39s
+Best test Acc: 0.671902
+
+#resnet50 lr=0.01, momentum=0.9 num_epochs=75
+Epoch 70/74
+----------
+train Loss: 0.1030 Acc: 0.7898
+test Loss: 0.1918 Acc: 0.6905
+
+Epoch 71/74
+----------
+train Loss: 0.0984 Acc: 0.7943
+test Loss: 0.2133 Acc: 0.6750
+
+Epoch 72/74
+----------
+train Loss: 0.0958 Acc: 0.7985
+test Loss: 0.1864 Acc: 0.6892
+
+Epoch 73/74
+----------
+train Loss: 0.0954 Acc: 0.8001
+test Loss: 0.1946 Acc: 0.6802
+
+Epoch 74/74
+----------
+train Loss: 0.0958 Acc: 0.8036
+test Loss: 0.1938 Acc: 0.6923
+
+Training complete in 131m 2s
+Best test Acc: 0.692268
+
+# resnet50 lr=0.01, momentum=0.9 num_epochs=30
+scheduler = torch.optim.lr_scheduler.StepLR(optimizer_ft, 1, gamma=0.9, last_epoch=-1)
+Epoch 25/29
+----------
+[0.0006461081889226679]
+train Loss: 0.1240 Acc: 0.7503
+test Loss: 0.1253 Acc: 0.7434
+
+Epoch 26/29
+----------
+[0.0005814973700304011]
+train Loss: 0.1251 Acc: 0.7449
+test Loss: 0.1172 Acc: 0.7539
+
+Epoch 27/29
+----------
+[0.0005233476330273611]
+train Loss: 0.1180 Acc: 0.7629
+test Loss: 0.1193 Acc: 0.7528
+
+Epoch 28/29
+----------
+[0.000471012869724625]
+train Loss: 0.1182 Acc: 0.7599
+test Loss: 0.1222 Acc: 0.7513
+
+Epoch 29/29
+----------
+[0.0004239115827521625]
+train Loss: 0.1181 Acc: 0.7631
+test Loss: 0.1180 Acc: 0.7553
+
+Training complete in 119m 23s
+Best test Acc: 0.755264
+
+#resnet18 lr=0.0001 momentum=0.9 num_epochs=20
+Epoch 15/19
+----------
+train Loss: 0.3774 Acc: 0.3944
+test Loss: 0.2568 Acc: 0.5456
+
+Epoch 16/19
+----------
+train Loss: 0.3655 Acc: 0.4094
+test Loss: 0.2467 Acc: 0.5526
+
+Epoch 17/19
+----------
+train Loss: 0.3607 Acc: 0.4091
+test Loss: 0.2389 Acc: 0.5611
+
+Epoch 18/19
+----------
+train Loss: 0.3476 Acc: 0.4329
+test Loss: 0.2263 Acc: 0.5932
+
+Epoch 19/19
+----------
+train Loss: 0.3426 Acc: 0.4463
+test Loss: 0.2178 Acc: 0.5916
+
+Training complete in 36m 54s
+Best test Acc: 0.593200
+
+
+
