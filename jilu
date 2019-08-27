@@ -126,5 +126,39 @@ test Loss: 0.2178 Acc: 0.5916
 Training complete in 36m 54s
 Best test Acc: 0.593200
 
+#resnet50 lr=0.01 momentum=0.9 num_epochs=90
+scheduler = torch.optim.lr_scheduler.StepLR(optimizer_ft, 1, gamma=0.1, last_epoch=-1)
+Epoch 85/89
+----------
+[0.0001]
+train Loss: 0.0904 Acc: 0.8197
+test Loss: 0.1440 Acc: 0.7430
 
+Epoch 86/89
+----------
+[0.0001]
+train Loss: 0.0867 Acc: 0.8297
+test Loss: 0.1443 Acc: 0.7444
 
+Epoch 87/89
+----------
+[0.0001]
+train Loss: 0.0873 Acc: 0.8255
+test Loss: 0.1432 Acc: 0.7434
+
+Epoch 88/89
+----------
+[0.0001]
+train Loss: 0.0856 Acc: 0.8287
+test Loss: 0.1409 Acc: 0.7485
+
+Epoch 89/89
+----------
+[0.0001]
+train Loss: 0.0887 Acc: 0.8217
+test Loss: 0.1437 Acc: 0.7456
+
+Training complete in 361m 49s
+Best test Acc: 0.750086
+
+一共五次
